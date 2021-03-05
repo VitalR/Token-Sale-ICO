@@ -1,5 +1,5 @@
 const ArtToken = artifacts.require("./ArtToken.sol");
 
 module.exports = function(deployer) {
-  deployer.deploy(ArtToken);
+  deployer.deploy(ArtToken, 1000000);
 };
