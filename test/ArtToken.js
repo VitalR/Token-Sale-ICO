@@ -12,9 +12,9 @@ contract('ArtToken', function(accounts) {
             return tokenInstance.symbol()
         }).then(function(symbol) {
             assert.equal(symbol, 'ART', 'has the correct symbol')
-            return tokenInstance.standart()
-        }).then(function(standart) {
-            assert.equal(standart, 'Art Token v1.0', 'has the correct standart')
+            return tokenInstance.standard()
+        }).then(function(standard) {
+            assert.equal(standard, 'Art Token v1.0', 'has the correct standard')
         })
     })
 

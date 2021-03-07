@@ -5,7 +5,7 @@ contract ArtToken {
     string public name = "Art Token";
     // Symbol of the Token
     string public symbol = "ART";
-    string public standart = "Art Token v1.0";
+    string public standard = "Art Token v1.0";
     // Total token supply
     uint256 public totalSupply;
     
