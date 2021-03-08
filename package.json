@@ -1,0 +1,17 @@
+{
+    "name": "art-token-sale",
+    "version": "1.0.0",
+    "description": "Art Token Sale ICO",
+    "main": "truffle.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "dev": "lite-server"
+    },
+    "author": "VitalR",
+    "license": "ISC",
+    "devDependencies": {
+        "lite-server": "^2.3.0"
+    }
+}
