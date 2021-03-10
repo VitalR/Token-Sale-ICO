@@ -59,7 +59,6 @@ contract('TokenSale', function(accounts) {
             return tokenSaleInstance.buyTokens(800000, { from: buyer, value: numberOfTokens * tokenPrice })
         }).then(assert.fail).catch(function(error) {
             assert(error.message.indexOf('revert') >= 0, 'cannot purchase more tokens than available')
-
         })
     })
 
